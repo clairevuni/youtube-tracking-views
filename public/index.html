@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF--8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizzazioni Video</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background-color: #f0f0f0; }
+        .chart-container { width: 80%; max-width: 900px; }
+    </style>
+</head>
+<body>
+    <div class="chart-container">
+        <canvas id="viewsChart"></canvas>
+    </div>
+
+    <!-- Includiamo la libreria Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Includiamo il nostro script per la logica del grafico -->
+    <script src="chart-logic.js"></script>
+</body>
+</html>
