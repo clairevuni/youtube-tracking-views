@@ -1,4 +1,5 @@
-import {YOUTUBE_API_KEY} from './config.js';
+import 'dotenv/config';
+const YOUTUBE_API_KEY = process.env.YOUTUBE_API_KEY;
 
 const videoURL = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
 
